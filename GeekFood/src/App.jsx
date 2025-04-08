@@ -1,10 +1,10 @@
 import React from 'react'
-import Navbar from './Components/Navbar/navbar'
+import navbar from './Components/Navbar/navbar.jsx'
 
 const App = () => {
   return (
     <div className='container'>
-     <Navbar/>
+     <navbar/>
     </div>
   )
 }
