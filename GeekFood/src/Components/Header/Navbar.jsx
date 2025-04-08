@@ -1,10 +1,10 @@
 import React from 'react'
 import './Navbar.css'
-import sun_icon from "./../../assets/sun-icon.png";
-import moon_icon from "./../../assets/moon-icon.png";
-import logo from "./../../assets/logo.svg";
+import sun_icon from "./../../assets/sun-icon.png"
+import moon_icon from "./../../assets/moon-icon.png"
+import logo from "./../../assets/logo.svg"
 
-const navbar = () => {
+const Navbar = () => {
   return (
     <div className='navbar'>
         <div className='logo-con'>
@@ -23,4 +23,4 @@ const navbar = () => {
   )
 }
 
-export default navbar
+export default Navbar
